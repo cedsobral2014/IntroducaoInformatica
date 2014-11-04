@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Conteudista em EaD para a SEFAZ</title>
+	<link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
+	<link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet"  media="screen" />
+	<link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>	
+	<script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+	<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+	<script type="text/javascript" src="js/ufc.js"></script>
+	<script type="text/javascript" src="js/vtip.js"></script>
+	<script type="text/javascript" src="js/fluidtextresizer.js"></script>
+	<script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+	<script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+    <script src="js/jcanvas.min.js" language="javascript"></script>
+	<script src="js/criarCanvas.js" language="javascript"></script>
+    <script src="js/animarBaloes.js" language="javascript"></script>
+    <script src="js/f1.js" language="javascript"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			
+		});
+		var redimensionarFonte = new fluidtextresizer({
+			controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+			targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+			levels: 1, //number of levels users can magnify (or shrink) text
+			persist: "none", //enter "session" or "none"
+			animate: 200 //animation duration of text resize. Enter 0 to disable
+		})
+	</script>
+	<style type="text/css" media="screen">
+		
+	</style>
+	<!--[if IE 7]>
+	<style type="text/css" media="screen">
+		#nav > li > ul > li {
+			margin-left:-15px;
+			width:230px;
+		}
+		.audio-player-toolbar > button {
+			float:left;
+			display:block;
+			background-color:white;
+		}
+		.audio-progressbar {
+			width:100px !important;
+			display:block;
+			float:left;
+			margin-left:5px;
+			margin-top:2px;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+	<div class="linha" id="cabecalho">
+		<div class="titulos">
+			<h1>Formação de Professor Conteudista em EaD para a SEFAZ</h1>
+			<h2>Aula 01: Planejamento</h2>
+		</div>
+	</div>
+	<div class="linha" id="navegacao">
+		<ul id="nav" class="coluna lateral">
+			<li id="nav-menu"><a href="#"><img src="layout/menu-menu.png" width="20" height="20" alt="Menu" /></a>
+				<ul>
+					<li><a href="orientacoes.html">Orientações de Navegação</a></li>
+					<li><a href="01.html">Tópico 01: Apresentação</a></li>
+                    <li><a href="02.html">Tópico 02: Contexto histórico</a></li>
+                    <li><a href="03.html">Tópico 03: Agenda e o fluxo de processo para a produção de aulas</a></li>
+
+				</ul>
+			</li>
+			<li><a href="01.html"><img src="layout/menu-anterior.png" width="20" height="20" alt="Tópico Anterior" title="Tópico Anterior" class="mouseover"/></a></li>
+			<li><a href="03.html"><img src="layout/menu-proximo.png" width="20" height="20" alt="Próximo Tópico" title="Próximo Tópico" class="mouseover"/></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('smaller')"><img src="layout/menu-fonte_reduzir.png" width="20" height="20" alt="Reduzir Fonte" title="Reduzir Fonte" class="mouseover" /></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('bigger')"><img src="layout/menu-fonte_aumentar.png" width="20" height="20" alt="Aumentar Fonte" title="Aumentar Fonte" class="mouseover" /></a></li>
+			<li><a href="#" id="menu_constrate"><img src="layout/menu-contraste.png" width="20" height="20" alt="Contraste" title="Contraste" class="mouseover" /></a></li>
+
+			<li><a href="pdf/02.pdf" target="_blank"><img src="layout/menu-impressao.png" width="20" height="20" alt="Versão para Impressão" title="Versão para Impressão" class="mouseover" /></a></li>
+		</ul>
+		<div id="topico" class="coluna principal">
+			<h2>Tópico 02: Contexto histórico</h2>
+		</div>
+	</div>
+
+	<div class="linha">
+		<div class="coluna lateral quadro_imagem">			
+			<img src="layout/quadro-multimidia.png" width="50px" height="50px"  />			
+		</div>
+		<div class="coluna principal quadro">
+			<h2>Multimídia</h2>
+			<p>Esta aula disponibiliza do recurso de <strong>Áudio.</strong> Para ter acesso aos áudios da aula clique no botão Player que segue abaixo.</p>
+			<p><strong>Obs.:</strong> Certifique que esteja com a versão mais atualizada de seu navegador.</p>
+            <div class="centralizado">                	
+				<span id="topico02" class="audio-html5">Carregando Áudio...<span class="audio-path">audio/topico2.mp3</span></span>
+			</div>
+			<br/>
+		</div>
+	</div>
+
+	<div class="linha">
+		<div class="coluna lateral">
+			<br />
+		</div>
+        <div class="coluna principal">
+			
+            <h1>Breve histórico da EaD para melhor compreensão do nosso método</h1>
+
+        <h3> Educação a distância </h3>
+
+        <p>A Informática surgiu com o intuito maior de racionalizar e automatizar o tratamento da informação, importante suporte do conhecimento e da comunicação, notadamente por intermédio de sistemas eletrônicos denominados computadores (KANAAN, 1998).</p>
+        
+        <p>Sua introdução na história da civilização humana acelerou o processo evolutivo de tal forma que, em mais ou menos cento e cinquenta anos, os avanços obtidos pelo homem superaram todas as realizações e conquistas produzidas ao longo de toda a sua existência, como bem observa Tajra (2002, p. 27):</p>
+
+        
+		<div class="citacao_abnt">
+        <p>Podemos verificar que nos últimos anos surgiram, de forma nunca vista antes, inclusive nos aspectos quantitativo e qualitativo, grandes mudanças tecnológicas, principalmente no campo da microeletrônica e das telecomunicações, as quais proporcionaram o desenvolvimento em diversas áreas: econômica – inclusive na vasta expansão do capitalismo; industrial – com a gama de processos que passaram a ser automatizados e robotizados; engenharia – possibilitando cada vez mais segurança à construção de máquinas e edificações complexas; telecomunicações – a possibilidade de nos comunicarmos por intermédio de aparelhos celulares; medicina – com a precisão dos resultados dos diagnósticos de doenças antes não detectadas em tempo hábil; aeroespacial – a criação do ônibus espacial, possibilitando levar as pessoas e experimentos à órbita da Terra e seu devido retorno. Todas essas evoluções científicas foram também favorecidas pela informática, que possibilita o embasamento e aprimoramento dos processos de produções e pesquisas. </p>
+			
+		</div>
+        
+        
+
+        <p>A educação não podia ficar à margem desse processo de reconstrução do mundo a partir da revolução tecnológica, até porque a razão de sua existência é formar indivíduos capazes para atuar de forma reflexiva e transformadora na realidade que os envolve, qualquer que seja. </p>
+        <p>Desse modo, desde os anos cinquenta do século XX, começa a se evidenciar o início da convergência entre Informática e Educação, a partir da proposição, por Skinner, da elaboração de uma máquina para ensinar por meio da utilização do conceito de instrução programada, nos moldes da desenvolvida por Pressey, em 1924, quem primeiro inventou uma máquina para corrigir testes de múltipla escolha (VALENTE, 1993).  </p>
+        <p>Nos anos 60, empresas como IBM, RCA e Digital proporcionaram às universidades americanas a experiência da instrução auxiliada por computador, o <em>Computer-Aided Instruction</em> (CAI), numa espécie de concretização da máquina de ensinar concebida por Skinner. Também na mesma época, as universidades brasileiras foram pioneiras na utilização do computador com finalidade educacional, para o que contribuíram com a realização de estudos, pesquisas e ações nesse sentido.</p>
+        <p>O advento da Internet e a sua consolidação como a mídia mais promissora desde que a televisão surgiu no cenário da comunicação favoreceu o redesenho de uma nova sociedade, sem fronteiras, habitada por indivíduos que vêm, aos poucos, se desfazendo de pensamentos e comportamentos analógicos e adotando, em seu lugar, uma visão digital (sistêmica) da realidade. </p>
+        
+            <!-- ADICIONA O EFEITO FOLHA CADERNO-->
+        <div class="folha_caderno">
+        <p>O mundo se transformou em uma grande rede interligada sem fios, que aos poucos vai conectando cada vez mais e por mais tempo pessoas e dispositivos a ela. </p>
+        <p>O conhecimento relativo às possibilidades contidas na esteira da integração das novas tecnologias ao processo educacional parece já ser de domínio público: afinal, não se questiona mais a importância da introdução da informática na educação, mas sim, como efetivá-la.</p>
+        </div>
+        <p>A inserção das TICs no contexto educacional permite a utilização de uma variedade quase infinita de informações, de forma interativa e flexível, capaz de atrair e manter o alunado constantemente ativo e interessado nessa dinâmica. Também favorece a alteração de seu comportamento diante do erro, do questionamento, da necessidade imperiosa de se desenvolver habilidades que lhe permitam dar conta das demandas da atualidade, permitindo-lhe assumir o papel de sujeito do seu próprio conhecimento, que tem no professor o facilitador desse processo.</p>
+        <p>A Educação a distância se apresenta então como uma alternativa viável para o acesso ao conhecimento existente por uma parcela da população que não consegue obtê-lo no ensino formal regular, consolidando-se, aos poucos, no Brasil e no mundo, sobretudo após o advento da Internet, a convergência entre as Tecnologias da Informação e da Comunicação (TICs) e a Educação e a popularização dos computadores pessoais.</p>
+        <p>Essa realidade tem favorecido o surgimento de uma intensa produção acadêmica em torno do processo ensino-aprendizagem e os elementos que dificultam ou contribuem para a sua efetivação, privilegiando a inserção de novos recursos e formas de abordagem que visam, prioritariamente, a sua readequação às exigências de uma nova cultura da aprendizagem que se instala na contemporaneidade.</p>
+        <p>A utilização da Educação a distância mediada pelas Tecnologias da Informação e Comunicação (TICs) no processo educacional favoreceu a inserção de um contingente populacional na educação superior até então não abrangido por esse nível de ensino. Tal modalidade permite a conciliação entre a necessidade contínua de qualificação requerida pelo atual contexto pessoal e profissional e o próprio trabalho.</p>
+             <!-- ADICIONA O EFEITO FOLHA CADERNO-->
+         <div class="folha_caderno"><p>Segundo Moran, educação a distância é o processo de ensino-aprendizagem, mediado por tecnologias, onde professores e alunos estão separados espacial e/ou temporalmente. (MORAN, 1994). </p></div>
+        
+        <p>Educação a Distância segundo o decreto nº 2.494 do Diário Oficial da União:</p>
+         <div class="flash">
+      <!-- ARQUIVO QUE TOCA A ANIMAÇÃO-->
+<object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="600" height="350">
+  <param name="movie" value="flash/a1_t2_professor_lousa_novo.swf" />
+  <param name="quality" value="high" />
+  <param name="wmode" value="transparent" />
+  <param name="swfversion" value="9.0.0.0" />
+  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf" />
+  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="flash/a1_t2_professor_lousa_novo.swf" width="600" height="350">
+    <!--<![endif]-->
+    <param name="quality" value="high" />
+    <param name="wmode" value="transparent" />
+    <param name="swfversion" value="9.0.0.0" />
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+    <div>
+      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+    </div>
+    <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+</object>
+</video>
+<!--INICIO descricao retratil-->
+<div class="descricao retratil">
+<h3><a href="#retratil" class="retratil_ativar">Versão Textual</a></h3>
+<div class="retratil_conteudo">
+<p>Educação a Distância é uma forma de ensino que possibilita a autoaprendizagem, com a mediação de recursos didáticos sistematicamente organizados, apresentados em diferentes suportes de informação, utilizados isoladamente ou combinados, e veiculados pelos diversos meios de comunicação. (Diário Oficial da União decreto nº 2.494, de 10 de fevereiro de 1998)</p>
+</div>
+</div>
+<!--FIM descricao retratil-->
+</div>
+        
+              
+        <p>Na educação a distância, a  interação entre professor e aluno se dá por meio de tecnologias, principalmente  a Internet, mas também podem ser utilizados o correio, o rádio, a televisão, o vídeo, o telefone, entre outras tecnologias semelhantes.</p>
+        <p>Segundo Moore e Kearsley (2007), na história, a educação a distância vem evoluindo ao longo de várias gerações. Os autores destacam cinco delas com ênfase na evolução tecnológica.</p>
+        <h3>Visão de Moore e Kearsley:</h3><br />
+<div class="flash">
+        
+        <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="500" height="550">
+          <param name="movie" value="flash/flash_safona01.swf" />
+          <param name="quality" value="high" />
+          <param name="wmode" value="transparent" />
+          <param name="swfversion" value="15.0.0.0" />
+          <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+          <param name="expressinstall" value="Scripts/expressInstall.swf" />
+          <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+          <!--[if !IE]>-->
+          <object type="application/x-shockwave-flash" data="flash/flash_safona01.swf" width="500" height="550">
+            <!--<![endif]-->
+            <param name="quality" value="high" />
+            <param name="wmode" value="transparent" />
+            <param name="swfversion" value="15.0.0.0" />
+            <param name="expressinstall" value="Scripts/expressInstall.swf" />
+            <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+            <div>
+              <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+            </div>
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object>
+<div class="descricao retratil">
+		<h3><a href="#retratil" class="retratil_ativar">Versão Textual</a></h3>
+					<div class="retratil_conteudo">
+						<h2>1º Geração</h2>
+                        <h3>Correspondências</h3>
+                        <p>Primeira Geração [Meio de comunicação era o texto e a instrução, por correspondência].Entregues pelo correio, o histórico da EaD começa com os cursos de instrução. Teve início na década de 1880, possibilitando às pessoas que desejavam estudar em casa ou no trabalho, instruções de um professor a distância.</p>
+						<p>O que motivou os primeiros educadores por correspondência era a visão de usar tecnologia (serviços postais baratos e confiáveis), para proporcionar oportunidades de aprendizado à população adulta.</p>
+                        
+                        <h2>2º Geração</h2>
+                        <h3>Rádio e Televisão</h3>
+                        <p>Segunda Geração (Rádio e Televisão). Iniciada com a  radiodifusão. Grandes interesses se voltaram para o uso do rádio para a educação, e em 1921 teve a primeira autorização para abertura de uma emissora educacional, a Latter Day Saints’, pertencente a University of Salt Lake City. Mais tarde surgem outras ações de EAD pelo rádio, mas foi constatado que não atendiam a todas expectativas propostas inicialmente. Contudo em 1934 iniciaram as operações de ensino a distancia pela televisão,  com aulas sobre higiene oral e astronomia.</p>
+                                                
+                        <h2>3º Geração</h2>
+                        <h3>Universidades Abertas</h3>
+                        <p>Terceira Geração (Universidade Aberta): Com a utilização de novas tecnologias para o ensino a distância, ensino superior percebeu a necessidade de migrar alguns cursos para esta nova modalidade, onde foi criado o Projeto Mídia de Instrução Articulada (AIM - Articulated Instructional Media Project), financiado pela Canegie Corporation de 1964 a 1968, que tinha por objetivo agrupar as tecnologias atuais de educação e adequá-las ao ensino a distância.</p>
+                        
+                        <h2>4º Geração</h2>
+                        <h3>Teleconferência</h3>
+                        <p>Quarta Geração (Teleconferência): Surgiu por volta dos anos 1980. Este modelo de educação nos Estados Unidos, por ser elaborada normalmente para uso de grupos e oferecer abordagem mais próxima com o tradicional método de ensino, atraiu grande número de educadores, sendo possível novamente a entidade física “sala de aula”.</p>
+                        
+                        <h2>5º Geração</h2>
+                        <h3>Internet/web</h3>
+                        <p>Quinta Geração (Computador e Internet): Diante o crescimento da utilização dos computadores no âmbito doméstico e da propagação da rede mundial de computadores, o ensino a distância também acompanhou esta evolução disponibilizando  maior interação por meio de chats, fóruns e mídias em geral relacionadas ao computador.</p>                        
+
+					</div>
+	  </div>
+          
+        </div>
+<br>
+        <p>O Instituto UFC Virtual da Universidade Federal do  Ceará está inserido nesta última geração, pois faz uso dos recursos  tecnológicos em seus cursos. Com a utilização de ferramentas desenvolvidas e/ou  adaptadas pela equipe do <span class="mouseover" title="Responsável pelo  desenvolvimento e criação de ferramentas midiáticas dos cursos a distância da UFC.">Setor de Tecnologias Digitais</span>, propicia ensino e aprendizagem mais flexíveis, permitindo maior interação entre os agentes envolvidos (professor, tutor, aluno, etc.).  Além de favorecer ao aluno o gerenciamento de seu próprio aprendizado de acordo com sua disponibilidade de tempo e lugar.</p>
+    <p>O Instituto UFC Virtual apresenta uma equipe multidisciplinar que auxilia diretamente as atividades dos cursos a distância - a Transição Didática. A Transição Didática (TD) é uma etapa da unidade funcional do Setor de Tecnologias Digitais (STD) que representa uma unidade multidisciplinar, composta por pedagogos e comunicadores sociais, sendo responsável pelo acompanhamento do processo de preparação das aulas para a web. Sua atuação é caracterizada pelo auxilio quanto ao planejamento da disciplina e pelo tratamento dado ao conteúdo produzido pelo professor. Esse conteúdo será adaptado segundo a usabilidade de conteúdos WEB, privilegiando a inserção de elementos que promovam a interação do aluno com o conteúdo e com os demais interagentes do curso. </p>
+        <p>O foco principal nessa abordagem pedagógica da elaboração do material didático em EAD, junto aos recursos tecnológicos de interação pedagógica, é a interface entre os atores envolvidos no processo - cursistas, professores e tutores. Sobre a importância atribuída ao material didático em EAD, Neder (2001) faz as seguintes considerações:</p>
+     
+        <div class="citacao_abnt">
+			<p>A educação a distância é uma modalidade de ensino que, paradoxalmente, por prescindir da relação face-a-face, exige um processo de interlocução permanente e próprio. Na educação a distância, o aluno não vai estar fisicamente presente em todos os momentos da relação ideológica. Mas apesar da distância física, não pode deixar de existir o diálogo permanente. O material didático é o instrumento para esse diálogo. Ele deve ser pensado e concebido no interior de um projeto. </p>
+			<p style="text-align:right">Neder (2001)</p>
+		</div>
+        
+       
+  
+        <p>&nbsp;</p>
+        
+        <div class="flutuante_container">
+					<div class="flutuante_conteudo" id="flutuante_conteudo1">
+                    <p>O design instrucional, segundo <strong>Campos</strong>, “pode ser definido como um ciclo de atividades, um plano geral de curso, incluindo sequencia e estrutura de unidades, os principais métodos a serem usados em cada aula, o grupo de estruturas e, o controle e avaliação do sistema”.</p>
+                    </div>
+                    </div>
+        
+        
+      
+        
+        
+        </div>
+        </div>
+        
+        <div class="linha">
+		<div class="coluna lateral quadro_imagem">
+			<img src="layout/quadro-olhando.png" width="50px" height="50px" alt="Ícone - Observação" />
+		</div>
+		<div class="coluna principal quadro">
+			<h2>Observação</h2>
+			<p>Não podemos deixar de lembrar que este trabalho foi  construído por uma equipe de profissionais que atua direta ou indiretamente na  produção de materiais e que, a partir deste curso, propõe apresentar algumas  ferramentas e metodologias dentro de um processo de ação próprio a fim de  garantir a qualidade das aulas.</p>
+		</div>
+	</div>
+        
+
+
+          <div class="linha">
+		<div class="coluna lateral">
+<br />
+
+		</div>
+        <div class="coluna principal">
+               
+		<p>Este curso será apresentado em cinco aulas conforme quadro abaixo:</p>
+			
+            
+            <!--INICIO seletor deitado-->
+<div class="slide_conteudo">
+<div class="coda-slider-wrapper">
+<div id="coda-nav-1" class="coda-nav">
+<ul>
+<li class="tab1"><a href="#1">AULA 01</a></li>
+<li class="tab2"><a href="#2">AULA 02</a></li>
+<li class="tab3"><a href="#3">AULA 03</a></li>
+<li class="tab4"><a href="#4">AULA 04</a></li>
+<li class="tab5"><a href="#5">AULA 05</a></li>
+
+</ul>
+</div>
+<div class="coda-slider preload" id="coda-slider-1">
+<div class="panel">
+<div class="panel-wrapper">
+<h2>AULA 01</h2>
+<p><strong>Planejamento:</strong> Como planejar e organizar as aulas tendo como ferramenta a agenda.</p>
+</div>
+</div>
+           
+<div class="panel">
+<div class="panel-wrapper">
+<h2>AULA 02</h2>
+<p><strong>Identificação da Disciplina e Organização Curricular:</strong> destacar itens essenciais para conhecimento da disciplina, como: ementa, objetivo, carga horária e docentes envolvidos no curso. Apresentar as métricas elaboradas pelo Centro de Produção, a fim de nortear o professor quanto ao número de aulas e tópicos. Relacionar o material  de apoio e bibliografia utilizada, onde será dada ênfase às  obras utilizadas para elaboração das aulas e o material que será  disponibilizado ao aluno.</p>
+</div>
+</div>
+           
+<div class="panel">
+<div class="panel-wrapper">
+<h2>AULA 03</h2>
+<p><strong>Ferramentas de interação:</strong> serão apresentadas algumas ferramentas utilizadas nas aulas e suas funcionalidades pedagógicas.</p>
+</div>
+</div>
+           
+<div class="panel">
+<div class="panel-wrapper">
+<h2>AULA 04</h2>
+<p><b>Créditos</b> - esclarecimentos sobre direito autoral , domínio público e normalização ABNT.</p>
+
+</div>
+</div>
+
+<div class="panel">
+<div class="panel-wrapper">
+<h2>AULA 05</h2>
+<p><b>Construção do Material Didático</b> – proposta metodológica para construção do material didático para EaD.</p>
+</div>
+</div>
+
+           
+</div>
+</div>
+</div>
+<!--Fim seletor deitado-->
+            
+                  
+
+        <p>Agora, vamos para o tópico 03 - Agenda, para conhecermos um pouco nosso processo de ação.</p>
+		
+        </div>
+        </div>
+        
+        <div class="linha">
+		<div class="coluna lateral quadro_imagem">
+			<img src="layout/quadro-referencias.png" width="50px" height="50px" />
+		</div>
+		<div class="coluna principal quadro">
+			<h2><a href="#retratil" class="retratil_ativar">Referências</a></h2>
+			<div class="retratil_conteudo">
+			<p><br /><strong>BARONE,  Nidia, et al, Transição Didática: Interagindo Conhecimento </strong>(estudo de caso do Instituto UFC Virtual). Artigo apresentado no I  Congresso Internacional da UAB, 2009.<br /><br />
+				CAMPOS, Gilda  H.  B, <a href="http://www.proged.ufba.br/ead/EAD%2057-68.pdf" target="_blank">http://www.proged.ufba.br/ead/EAD%2057-68.pdf</a> (último acesso dia 11/03/2013).<br /><br />
+				MOORE, Michael G.;  KEARSLEY, Greg. Educação a Distância: uma visão integrada. São Paulo: Thompson,  2007. </p>
+			</div>
+		</div>
+	</div>
+     
+        
+        
+	<div class="linha">
+		<div id="rodape">
+			<ul id="rodape_navegacao">
+				<li><a href="#topo" title="Retornar ao topo da página">Topo</a></li>
+				<li><a href="01.html" title="Ir para o Tópico Anterior">Tópico Anterior</a></li>
+				<li><a href="03.html" title="Ir para o Próximo Tópico">Próximo Tópico</a></li>
+
+				<li><a href="pdf/02.pdf" title="Versão para Impressão" target="_blank">Versão para Impressão</a></li>
+			</ul>
+			<a href="http://www.virtual.ufc.br" target="_blank" id="logo-ufcv" class="logo"><img src="layout/logo-ufc_virtual-color.png" alt="Logo UFC" width="40" height="40" /></a>
+			<a href="http://www.ufc.br" target="_blank" id="logo-ufc" class="logo"><img src="layout/logo-ufc-color.png" alt="Logo UFC Virtual" width="35" height="45" /></a>
+			<p>Responsável: Professora Nidia Barone</p><p>Universidade Federal do Ceará - Instituto UFC Virtual</p>
+		</div>
+	</div>
+</body>
+</html>
