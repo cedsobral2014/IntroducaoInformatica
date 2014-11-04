@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Curso de Teste no CED</title>
+	<link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
+	<link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet"  media="screen" />
+	<link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>	
+	<script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+	<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+	<script type="text/javascript" src="js/ufc.js"></script>
+	<script type="text/javascript" src="js/vtip.js"></script>
+	<script type="text/javascript" src="js/fluidtextresizer.js"></script>
+	<script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+	<script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+    <script src="js/jcanvas.min.js" language="javascript"></script>
+	<script src="js/criarCanvas.js" language="javascript"></script>
+    <script src="js/animarBaloes.js" language="javascript"></script>
+    <script src="js/f1.js" language="javascript"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			
+		});
+		var redimensionarFonte = new fluidtextresizer({
+			controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+			targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+			levels: 1, //number of levels users can magnify (or shrink) text
+			persist: "none", //enter "session" or "none"
+			animate: 200 //animation duration of text resize. Enter 0 to disable
+		})
+	</script>
+	<style type="text/css" media="screen">
+		
+	</style>
+	<!--[if IE 7]>
+	<style type="text/css" media="screen">
+		#nav > li > ul > li {
+			margin-left:-15px;
+			width:230px;
+		}
+		.audio-player-toolbar > button {
+			float:left;
+			display:block;
+			background-color:white;
+		}
+		.audio-progressbar {
+			width:100px !important;
+			display:block;
+			float:left;
+			margin-left:5px;
+			margin-top:2px;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+	<div class="linha" id="cabecalho">
+		<div class="titulos">
+			<h1>Curso de Introdução a Informática</h1>
+			<h2>Aula 01: Planejamento</h2>
+		</div>
+	</div>
+	<div class="linha" id="navegacao">
+		<ul id="nav" class="coluna lateral">
+			<li id="nav-menu"><a href="#"><img src="layout/menu-menu.png" width="20" height="20" alt="Menu" /></a>
+				<ul>
+					<li><a href="orientacoes.html">Orientações de Navegação</a></li>
+					<li><a href="01.html">Tópico 01: Apresentação</a></li>
+                    <li><a href="02.html">Tópico 02: Contexto histórico</a></li>
+                    <li><a href="03.html">Tópico 03: Agenda e o fluxo de processo para a produção de aulas</a></li>
+
+				</ul>
+			</li>
+			<li><a href="orientacoes.html"><img src="layout/menu-anterior.png" width="20" height="20" alt="Tópico Anterior" title="Tópico Anterior" class="mouseover"/></a></li>
+			<li><a href="02.html"><img src="layout/menu-proximo.png" width="20" height="20" alt="Próximo Tópico" title="Próximo Tópico" class="mouseover"/></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('smaller')"><img src="layout/menu-fonte_reduzir.png" width="20" height="20" alt="Reduzir Fonte" title="Reduzir Fonte" class="mouseover" /></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('bigger')"><img src="layout/menu-fonte_aumentar.png" width="20" height="20" alt="Aumentar Fonte" title="Aumentar Fonte" class="mouseover" /></a></li>
+			<li><a href="#" id="menu_constrate"><img src="layout/menu-contraste.png" width="20" height="20" alt="Contraste" title="Contraste" class="mouseover" /></a></li>
+
+			<li><a href="pdf/01.pdf" target="_blank"><img src="layout/menu-impressao.png" width="20" height="20" alt="Versão para Impressão" title="Versão para Impressão" class="mouseover" /></a></li>
+		</ul>
+		<div id="topico" class="coluna principal">
+			<h2>Tópico 05: Geração dos Computadores e Conceitos Básicos de Informática</h2>
+		</div>
+	</div>
+    
+    <div class="linha">
+        <div class="coluna lateral quadro_imagem">			
+			<img src="layout/quadro-multimidia.png" width="50px" height="50px"  />			
+		</div>
+        <div class="coluna principal quadro">
+            <h2>Vídeo-Aula</h2>
+                
+        </div>
+    </div>
+    
+    <div class="linha">
+        <div class="coluna lateral">			
+			<br/>		
+    </div>
+        <div class="coluna principal">
+            <h2>Olá Caros Cursistas!!</h2>
+
+            <p>Bem vindos a aula 05 do Modulo 1,  Introdução a Informática. Nesta unidade estudaremos dois tópicos: a geração dos computadores e os conceitos básicos de informática utilizando o sistema operacional Linux. Prontos pra começar?</p>
+ 
+        </div>
+        
+    </div>
+    <div class="linha">
+        <div class="coluna lateral">
+            <br/>
+        </div>
+        
+        <div class="coluna principal">
+            <h1>O que são Computadores?</h1>
+            <h3>Abrir texto flutuante</h3>
+            <p>Os computadores são máquinas capazes de realizar vários cálculos automaticamente, além de possuírem dispositivos de armazenamento e de entrada e saída de infinitas informações.</p>
+        </div>
+    </div>
+    
+    <div class="linha">
+        <div class="coluna lateral">
+            <br/>
+        </div>
+            <div class="coluna principal ">
+                
+               
+                <h1>Gerações de Computadores</h1>
+
+
+                            <!--INICIO seletor deitado-->
+                <div class="slide_conteudo">
+                <div class="coda-slider-wrapper">
+                <div id="coda-nav-1" class="coda-nav">
+                <ul>
+                <li class="tab1"><a href="#1">1ª Geração</a></li>
+                <li class="tab2"><a href="#2">2ª Geração</a></li>
+                <li class="tab3"><a href="#3">3ª Geração</a></li>
+                <li class="tab4"><a href="#4">4ª Geração</a></li>
+                <li class="tab5"><a href="#5">5ª Geração</a></li>
+
+                </ul>
+                </div>
+                <div class="coda-slider preload" id="coda-slider-1">
+                <div class="panel">
+                <div class="panel-wrapper">
+                <h2>1ª Geração de Computadores (1940 a 1952)</h2>
+                <p>A primeira Geração de Computadores foi construída no ano de 1940 a 1952. Essa geração é marcada pela utilização de válvulas a vácuo, e que eram aplicados em campos científicos e militares. Utilizavam como linguagem de programação a linguagem de máquina e a forma de armazenar dados era através de cartões perfurados.</p>
+                </div>
+                </div>
+
+                <div class="panel">
+                <div class="panel-wrapper">
+                <h2>2ª Geração de Computadores (1952 - 1964)</h2>
+                <p>Tem como marco inicial o surgimento dos Transistores. As máquinas diminuíram muito em tamanho e suas aplicações passam além dos científico e militar a administrativa e gerencial. Surgem as primeiras linguagens de programação. Além do surgimento dos núcleos de ferrite, fitas e tambores magnéticos passam a ser usados como memória.</p>
+                </div>
+                </div>
+
+                <div class="panel">
+                <div class="panel-wrapper">
+                <h2>3ª Geração de Computadores (1964 - 1971)</h2>
+                <p>Tem como marco inicial o surgimento dos Circuitos Integrados. Grande evolução dos Sistemas Operacionais, surgimento da multiprogramação, real time e modo interactivo. A memória agora é feita de semicondutores e discos magnéticos.</p>
+                </div>
+                </div>
+
+                <div class="panel">
+                <div class="panel-wrapper">
+                <h2>4ª Geração de Computadores (1971 - 1981)</h2>
+                <p>Tem como marco inicial o surgimento do Microprocessador, que possibilitou a grande redução no tamanho dos computadores. Surgem muitas linguagens de alto-nível e nasce a teleinformática (transmissão de dados entre computadores através de rede).</p>
+
+                </div>
+                </div>
+
+                <div class="panel">
+                <div class="panel-wrapper">
+                <h2>5ª Geração de Computadores (1981 até a atualidade):</h2>
+                <p>Surgimento do VLSI. Inteligência artificial, altíssima velocidade de processamento, alto grau de interatividade.</p>
+                </div>
+                </div>
+
+
+                </div>
+                </div>
+                </div>
+                <!--Fim seletor deitado-->
+            </div>
+    </div>
+    
+    <div class="linha">
+        <div class="coluna lateral">
+            <br/>
+        </div>
+        <div class="coluna principal">
+            <p class="folha_caderno">Os computadores possuem alguns elementos básicos, como: que ao longo deste curso iremos aprender o que são Processadores, Memória RAM, Dispositivos de Entrada e Saída de informações, assim como suas principais ferramentas, <strong><u class="mouseover" title="O Software  é a parte lógica do computador. É a Manipulação, instrução de execução, redirecionamento e execução das atividades lógicas das máquinas.">Software</u></strong> e <strong><u class="mouseover" title="O Hardware é a parte física do computador, ou seja, o conjunto de aparatos eletrônicos, peças e equipamentos que fazem o computador funcionar. Hardware significa também, um conjunto de equipamentos acoplados. A ciência que estuda o hardware é conhecida como arquitetura de computadores. ">Hardware</u></strong>.</p>
+        </div>
+    </div>
+    
+    <div class="linha">
+        <div class="coluna lateral quadro_imagem">
+            <img src="layout/quadro-referencias.png" width="50px" height="50px" />
+        </div>
+        <div class="coluna principal quadro">
+			<h2><a href="#retratil" class="retratil_ativar">Referências</a></h2>
+			<div class="retratil_conteudo">
+                            <p>http://producao.virtual.ufpb.br/books/camyle/introducao-a-computacao-livro/livro/livro.chunked/ch01s02.html</p>
+                           
+			</div>
+        
+    </div>
+<!-- INÍCIO DO RODAPÉ-->		
+	<div class="linha">
+		<div id="rodape">
+			<ul id="rodape_navegacao">
+				<li><a href="#topo" title="Retornar ao topo da página">Topo</a></li>
+				<li><a href="orientacoes.html" title="Ir para o Tópico Anterior">Tópico Anterior</a></li>
+				<li><a href="02.html" title="Ir para o Próximo Tópico">Próximo Tópico</a></li>
+
+				<li><a href="pdf/01.pdf" title="Versão para Impressão" target="_blank">Versão para Impressão</a></li>
+			</ul>
+			<a href="http://www.virtual.ufc.br" target="_blank" id="logo-ufcv" class="logo"><img src="layout/logo-ufc_virtual-color.png" alt="Logo UFC" width="40" height="40" /></a>
+			<a href="http://www.ufc.br" target="_blank" id="logo-ufc" class="logo"><img src="layout/logo-ufc-color.png" alt="Logo UFC Virtual" width="35" height="45" /></a>
+			<p>Responsável: Professora Nidia Barone</p><p>Universidade Federal do Ceará - Instituto UFC Virtual</p>
+		</div>
+	</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+    </script>
+</body>
+</html>

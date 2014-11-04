@@ -596,3 +596,10 @@ SCROLL TABLET
 
 .skin-scroll-tablet a {
   border-color: #888888; }
+
+/*PRIMEIRA LETRA DESTACADA*/
+#p:first-letter {
+    color: #000;
+    font-size: xx-large;
+}
+
