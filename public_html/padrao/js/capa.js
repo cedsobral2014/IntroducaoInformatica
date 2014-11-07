@@ -28,7 +28,6 @@ Browser = function(){
 		console.log("Versão do Navegador:"+$.browser.version)*/				
 		
 		$(document).ready(function(){
-			
 			if($.browser.msie && $.browser.version < 9.0){
 				$("#capa_bg").css("background-image","url(imagens/capa_cetrede.jpg)");				
 				$("#capa_bg").fadeIn(1500, function(){
